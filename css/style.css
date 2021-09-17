@@ -1,4 +1,5 @@
 /**********global**********/
+
 * {
   margin: 0;
   padding: 0%;
@@ -20,10 +21,15 @@ body {
   clear: both;
 }
 
+.text-grey {
+  color:gray;
+}
+
 /**********header**********/
+
 .top-header {
   height: 100px;
-  margin-top: 15px;
+  margin: 15px 0 25px 0;
 }
 
 #logo {
@@ -50,5 +56,81 @@ li a {
 
 a:hover {
   color: orangered;
+}
+
+/*jumbotron*/
+.jumbotron {
+  height: 500px;
+  margin-bottom: 25px;
+  border-radius: 20px;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /*filter: brightness(75%);*/
+}
+
+/**********main**********/
+
+/*main top*/
+
+h1{
+  font-size: 35px;
+}
+
+/*layout clearfix*/
+main div section {
+  min-height: 250px;
+  float: left;
+  margin: 2% 0;
+}
+
+.content-left, .content-right {
+  width: 20%;
+}
+
+.content-center {
+  width: 56%;
+  margin: 2% 2%;
+}
+
+.clearfix {
+  margin: 25px 0; 
+}
+
+/*img*/
+.img-left, .img-center, .img-right {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(75%);
+  border-radius: 20px;
+}
+
+
+.img-left {
+  background-image: url(../img/img-1.jpg);
+}
+
+.img-center {
+  background-image: url(../img/banner-2.jpg);
+}
+
+
+.img-right {
+  background-image: url(../img/img-3.jpg);
+}
+
+/*sub-title img*/
+
+.clearfix h4, p{
+  margin-top: 15px;
+  text-align: left;
+}
+
+
+
+
 
 
