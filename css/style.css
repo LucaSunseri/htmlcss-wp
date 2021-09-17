@@ -129,6 +129,15 @@ main div section {
   text-align: left;
 }
 
+/**********footer**********/
+footer h4 {
+  text-align: center;
+}
+footer h4::after {
+  content: " \2764";
+  font-size: 20px;
+  color: red;
+}
 
 
 
