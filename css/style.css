@@ -78,7 +78,8 @@ a:hover {
 
 .text-jumbotron {
   color: white;
-  padding: 250px 300px 0px 40px;
+  width: 65%;
+  padding: 30% 40px;
 }
 
 /**********main**********/
