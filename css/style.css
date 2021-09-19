@@ -28,7 +28,6 @@ body {
 /**********header**********/
 
 .top-header {
-  height: 100px;
   margin: 15px 0 25px 0;
 }
 
@@ -91,8 +90,7 @@ h1{
 }
 
 /*layout clearfix*/
-main div section {
-  min-height: 250px;
+main .clearfix section {
   float: left;
 }
 
